@@ -194,7 +194,7 @@ if arquivo:
 
     func = st.sidebar.selectbox('Escolha o funcionário', options = sorted(horarios['Nome'].unique()))
 
-    ano = int(st.sidebar.selectbox('Escolha o Ano', options = [2021, 2020], index = 1))
+    ano = int(st.sidebar.selectbox('Escolha o Ano', options = [2022, 2021, 2020], index = 1))
 
     mes = int(st.sidebar.selectbox('Escolha o Mês', options = sorted(horarios['Mes'].unique())))
 
